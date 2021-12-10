@@ -1,0 +1,72 @@
+import turtle
+
+an = turtle.Screen()
+a = turtle.Turtle()
+a.shape("turtle")
+a.color("blue")
+an.bgcolor("black")
+a.speed(5)
+
+#huruf D
+a.penup()
+a.goto(-280, 0)
+a.pendown()
+a.pensize(10)
+a.circle(50, 180)
+a.left(90)
+a.forward(100)
+a.right(180)
+
+# huruf I
+a.penup() 
+a.goto(-200, 0)
+a.down()
+a.left(100)
+a.pensize(10)
+a.pendown()
+a.setheading(90)
+a.forward(100)
+a.setheading(0)
+a.penup()
+
+# huruf M
+a.goto(-170, 95)
+a.pendown()
+a.pensize(10)
+a.right(90)
+a.forward(90)
+a.backward(90)
+a.left(45)
+a.forward(90)
+a.left(95)
+a.forward(90)
+a.right(140)
+a.forward(100)
+a.penup()
+
+# huruf A
+a.goto(25, 100)
+a.pendown()
+a.pensize(10)
+a.right(25)
+a.forward(110)
+a.backward(110)
+a.left(45)
+a.forward(110)
+a.backward(70)
+a.right(100)
+a.forward(35)
+a.penup()
+
+# huruf S
+a.goto(115, 0)
+a.pendown()
+a.pensize(10)
+a.pendown()
+a.forward(30)
+a.backward(30)
+a.circle(-25, -165)
+a.circle(25, -225)
+a.penup()
+
+turtle.done()
